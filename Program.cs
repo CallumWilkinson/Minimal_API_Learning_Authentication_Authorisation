@@ -12,6 +12,7 @@ namespace Minimal_API_Learning_Authentication_Authorisation
                 return "callum";
             }
                 );
+            //test
 
             app.MapGet("/login", (HttpContext ctx) =>
             {
